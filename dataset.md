@@ -44,7 +44,7 @@ I use this approach to show that an inventor is more likely to create breakthrou
 
 I have another working paper (with Steffen Keck, Haibo Liu, and Wenjie Tang) showing that teams with women members also outperform all-men teams when working on integral inventions (Invention Integrality and Team Gender Composition). 
 
-Check out the pseudocode below. The pseudocode requires [CoreNLP](https://stanfordnlp.github.io/CoreNLP/) to identify the noun phrase. 
+Check out the pseudocode below. I use [CoreNLP](https://stanfordnlp.github.io/CoreNLP/) to identify the noun phrase. 
 
 ***
 
