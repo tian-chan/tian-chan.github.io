@@ -42,8 +42,6 @@ Patent claims are written in such a strict way that the _subject matter_ of the 
 
 I use this approach to show that an inventor is more likely to create breakthroughs when working alone (compared to working with others) especially when working on integral inventions. (see [paper](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2962348)) 
 
-I have another working paper (with Steffen Keck, Haibo Liu, and Wenjie Tang) showing that teams with women members also outperform all-men teams when working on integral inventions (paper available on request). 
-
 Check out the pseudocode below. I use [CoreNLP](https://stanfordnlp.github.io/CoreNLP/) to identify the noun phrase. 
 
 ***
