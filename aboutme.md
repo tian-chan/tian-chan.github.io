@@ -8,7 +8,7 @@ My name is Tian. I am an assistant professor of Information Systems and Operatio
 
 ### research interests
 
-These are topics I'm broadly interested in: New product / service development, design management, empirical operations, teams, patents.
+These are topics I'm broadly interested in: New product / service development, design management, empirical operations, teams, intellectual property.
 
 ### my history
 
