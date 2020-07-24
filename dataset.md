@@ -3,8 +3,10 @@ layout: page
 title: Dataset
 subtitle: Posting data and pseudocodes
 ---
+This is where I post data or pseudocodes to my research papers. 
 
-## styles in designs
+
+## 1. styles in designs
 
 Product design (or the form of a product) is an important aspect of new product development. This portion is where I (in collaboration with Jürgen Mihm, and Manuel Sosa) post results, data, and materials for our ongoing research on product design.
 
@@ -36,7 +38,7 @@ NJW:
 ***
 
 
-## measuring "decomposability" of a (utility) patent
+## 2. measuring "decomposability" of a (utility) patent
 
 Patent claims are written in such a strict way that the _subject matter_ of the claim - that is, the thing that the idea the claim protects - can be fairly easily identified. This in turn allows to measure the degree to which a patent is **decomposable**. We say an invention is more decomposable (or modular) if it has more subject matters identified in this way. Conversely, it is less decomposable (or integral) if it has less subject matters identified in this way. (The intuition is that the more subject matters identified in an invention, the more one can apply ideas to individual parts of the invention without changing the rest). 
 
