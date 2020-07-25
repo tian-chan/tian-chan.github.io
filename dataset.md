@@ -2,6 +2,7 @@
 layout: page
 title: Dataset
 subtitle: Posting data and pseudocodes
+cover-img: "/assets/img/Screenshot_2020-07-24 Data projects on B.png"
 ---
 This is where I post data or pseudocodes to my research papers. 
 
