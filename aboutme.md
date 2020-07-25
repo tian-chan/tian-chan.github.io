@@ -2,7 +2,7 @@
 layout: page
 title: About me
 subtitle: Assistant Professor @ Emory University
-cover-img: "/assets/img/Screenshot_2020-07-24 Product Design on Behance2 (2).png"
+cover-img: "/assets/img/Screenshot_2020-07-24 Product Design on Behance2.png"
 ---
 
 My name is Tian. I am an assistant professor of Information Systems and Operations Management @ Emory University's Goizueta Business School. I also teach the undergraduate process and systems management course at the Goizueta Business School. This is my [CV](https://docs.google.com/document/d/1mS2JiAFukeNQ4Pi39pAadnfoGDJQG7TGWywthtN2Xgs/edit?usp=sharing).
