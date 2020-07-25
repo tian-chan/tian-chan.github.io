@@ -7,7 +7,7 @@ title: Operations Management | Innovation Management
 description: Assistant Prof @ Emory University.
 
 # Your name to show in the footer
-author: Some Person
+author: Tian Chan
 
 # --- List of links in the navigation bar --- #
 
@@ -25,19 +25,18 @@ navbar-links:
 # avatar: "/assets/img/avatar-icon.png"
 
 # By default, the image is cut into a circle. You can disable this behaviour by setting 'round-avatar: false'
-# round-avatar: true
+round-avatar: true
 
 # If you want to have an image logo in the top-left corner instead of the title text,
 # then specify the following parameter
-#title-img: /path/to/image
-
+title-img: /assets/img/tipot-0.jpg
 
 # --- Footer options --- #
 
 # Change all these values or delete the ones you don't want.
 # Important: you must keep the "name" parameter, everything else you can remove
-author:
-  name: Tian Chan
+# author:
+#  name: Tian Chan
 
 # Select your active Social Network Links.
 # Uncomment the links you want to show in the footer and add your information to each link.
@@ -45,7 +44,7 @@ author:
 # If you want to add a new link that isn't here, you'll need to also edit the file _data/SocialNetworks.yml
 social-network-links:
   email: "tian.chan@emory.edu"
-  googlescholar: citations?user=LL2ZMiIAAAAJ
+  google-scholar: citations?user=LL2ZMiIAAAAJ
   researchgate: Tian_Chan2
   linkedin: tian-chan
   github: tian-chan
