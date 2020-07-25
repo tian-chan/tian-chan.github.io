@@ -7,7 +7,7 @@ title: Operations Management | Innovation Management
 description: Assistant Prof @ Emory University.
 
 # Your name to show in the footer
-author: Some Person
+author: Tian Chan
 
 # --- List of links in the navigation bar --- #
 
@@ -36,8 +36,8 @@ navbar-links:
 
 # Change all these values or delete the ones you don't want.
 # Important: you must keep the "name" parameter, everything else you can remove
-author:
-  name: Tian Chan
+# author:
+#  name: Tian Chan
 
 # Select your active Social Network Links.
 # Uncomment the links you want to show in the footer and add your information to each link.
@@ -45,7 +45,7 @@ author:
 # If you want to add a new link that isn't here, you'll need to also edit the file _data/SocialNetworks.yml
 social-network-links:
   email: "tian.chan@emory.edu"
-  googlescholar: citations?user=LL2ZMiIAAAAJ
+  google-scholar: citations?user=LL2ZMiIAAAAJ
   researchgate: Tian_Chan2
   linkedin: tian-chan
   github: tian-chan
