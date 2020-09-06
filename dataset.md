@@ -2,14 +2,15 @@
 layout: page
 title: Dataset
 subtitle: Posting data and pseudocodes
+cover-img: "/assets/img/Screenshot_2020-07-24 Data projects on B.png"
 ---
 This is where I post data or pseudocodes to my research papers. 
 
 ## measuring "decomposability" of a (utility) patent
 
-Patent claims are written in such a strict way that the _subject matter_ of the claim - that is, the thing that the idea the claim protects - can be fairly easily identified. This in turn allows to measure the degree to which the invention that the patent protects is **decomposable**. We say an invention is more decomposable (or modular) if it has more subject matters identified in this way. Conversely, it is less decomposable (or integral) if it has less subject matters identified in this way. (The intuition is that the more subject matters identified in an invention, the more one can apply ideas to individual parts of the invention without changing the rest). 
+Patent claims are written in such a strict way that the _subject matter_ of the claim - that is, the thing that the idea the claim protects - can be fairly easily identified. This in turn allows us to measure the degree to which the invention that the patent protects is **decomposable**. We say an invention is more decomposable (or modular) if it has more subject matters identified in this way. Conversely, it is less decomposable (or integral) if it has less subject matters identified in this way. (The intuition is that the more subject matters identified in an invention, the more one can apply ideas to individual parts of the invention without changing the rest). 
 
-I use this approach to show that an inventor is more likely to create breakthroughs when working alone (compared to working with others) especially when working on integral inventions (see [paper](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2962348)). Another paper (with Steffen Keck, Haibo Liu, and Wenjie Tang) are in the works. 
+I use this approach to show that an inventor is more likely to create breakthroughs when working alone (compared to working with others) especially when working on integral inventions (see [paper](https://pubsonline.informs.org/doi/abs/10.1287/msom.2019.0858) and a shorter version on [HBR online](https://hbr.org/2019/12/when-individuals-are-more-innovative-than-teams)). I'm working with Steffen Keck, Haibo Liu, and Wenjie Tang on another paper using this measure. 
 
 Check out the pseudocode below. I use [CoreNLP](https://stanfordnlp.github.io/CoreNLP/) to identify the noun phrase. 
 
