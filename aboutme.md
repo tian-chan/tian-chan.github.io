@@ -11,7 +11,7 @@ My name is Tian. I am an assistant professor of Information Systems and Operatio
 
 These are topics I'm broadly interested in: New product / service development, design management, empirical operations, teams, intellectual property.
 
-### My story
+### my story
 
 I grew up in Malaysia and Singapore. Love history/fiction (most recent reading: the three-body problem trilogy), traveling, and running. I also received my BS degree from UC Berkeley, MS degree from Stanford University, and my PhD degree from INSEAD. Before my PhD I worked for about six years in technology and operations development @ PSA International, a global transportation company. 
 
