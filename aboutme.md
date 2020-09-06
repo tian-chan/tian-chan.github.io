@@ -13,6 +13,6 @@ These are topics I'm broadly interested in: New product / service development, d
 
 ### my history
 
-I grew up in Malaysia and Singapore. Love history/fiction, traveling, running, (and now less actively) basketball and RPG games. I also received my BS degree from UC Berkeley, MS degree from Stanford University, and my PhD degree from INSEAD. Before my PhD I worked for about six years in technology and operations development @ PSA International, a global transportation company. 
+I grew up in Malaysia and Singapore. Love history/fiction (most recent reading: the three-body problem trilogy), traveling, and running. I also received my BS degree from UC Berkeley, MS degree from Stanford University, and my PhD degree from INSEAD. Before my PhD I worked for about six years in technology and operations development @ PSA International, a global transportation company. 
 
 ![Tian](/assets/img/squaremug.png)
