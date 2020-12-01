@@ -2,8 +2,8 @@
 layout: post
 title: New working paper
 subtitle: Exaptation and user innovation
-tags: [product design, innovation]
+tags: [product design, innovation, problem-solving]
 ---
 
-[New working paper](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3732971) with Shi-Ying Lim on IKEA Hackers. 
+How does problem formulation (vs. the lack of it) affect hack outcomes? Our [working paper](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3732971) titled "The search for novel product uses: An investigation of IKEA hacks" attempts to theorize and provide evidence in the context of users hacking IKEA products. with Shi-Ying Lim. 
 
