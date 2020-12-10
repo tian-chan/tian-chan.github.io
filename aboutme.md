@@ -11,7 +11,7 @@ I am an assistant professor of Information Systems and Operations Management @ E
 
 I am curious about how novel innovations come about. The areas I'm broadly interested in: product design, service design, teams, networks, intellectual property.
 
-A sample of the recent research questions I work on (or am learning more about)--does problem-solving necessarily require upfront problem-formulation? how can an innovator leverage on benchmarks and comparisons (e.g., other designs of the same "style") to improve the value of his/her design? are there specific kinds of inventions where teams with women work better than all-men teams? how should intellectual property protection for product design look like? should ideas for new "business methods" receive intellectual property protection? 
+A sample of the recent research questions I work on (or am learning more about)--does problem-solving necessarily require upfront problem-formulation? how can an innovator leverage on benchmarks and comparisons (e.g., other designs of the same "style") to improve the value of his/her design? are there specific kinds of inventions where teams with women work better than all-men teams? how should intellectual property protection be tailored for non-technological innovations - e.g., product design and business methods? 
 
 
 ### teaching
