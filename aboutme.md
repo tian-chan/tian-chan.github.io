@@ -21,7 +21,7 @@ I teach the undergraduate process and systems management course (introductory op
 
 ### my story
 
-I grew up in Malaysia and Singapore. I read quite a bit (fiction and non-fiction both: most recently "the three-body problem trilogy" and "antifragility"). Also travels (for food and sightseeing), and runs (never more than 5k). Before my PhD I worked for about six years @ PSA International, a global transportation company based in Singapore, where I worked on port design and development (hardware specification, operational capacity sizing, prototyping automated optimization algorithms, streamlining human work processes, etc.) 
+I grew up in Malaysia and Singapore. I read quite a bit (fiction and non-fiction both: most recently "the three-body problem trilogy" and "antifragility"). Also travels (for food and sightseeing), and runs (never more than 5k). Before my PhD I worked for about six years @ PSA International, a global transportation company based in Singapore, where I worked on port design and development (evaluating new technologies, prototyping new operations algorithms, hardware specification, operational capacity sizing, streamlining human work processes, etc.) 
 
 This is my [CV](https://docs.google.com/document/d/1mS2JiAFukeNQ4Pi39pAadnfoGDJQG7TGWywthtN2Xgs/edit?usp=sharing).
 
