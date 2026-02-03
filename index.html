@@ -1,19 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<!-- Google tag (gtag.js) -->
-	<script async src="https://www.googletagmanager.com/gtag/js?id=G-5V07NSM6V3"></script>
-	<script>
-	  window.dataLayer = window.dataLayer || [];
-	  function gtag(){dataLayer.push(arguments);}
-	  gtag('js', new Date());
-	
-	  gtag('config', 'G-5V07NSM6V3');
-	</script>
-	
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-5V07NSM6V3"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-5V07NSM6V3');
+  </script>
+
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Tian Heong Chan</title>
+
   <style>
     body {
       font-family: Arial, sans-serif;
@@ -41,7 +41,7 @@
     h3 {
       margin-top: 1.5rem;
       color: #2c3e50;
-    }	
+    }
     ul {
       list-style: none;
       padding-left: 0;
@@ -49,6 +49,8 @@
     ul li {
       margin-bottom: 0.5rem;
     }
+
+    /* default links (CV, syllabi, etc.) */
     a {
       color: #2980b9;
       text-decoration: none;
@@ -56,116 +58,183 @@
     a:hover {
       text-decoration: underline;
     }
+
     footer {
       text-align: center;
       padding: 2rem 1rem;
       font-size: 0.9rem;
       color: #777;
     }
+
+    /* ===== Publication styling ===== */
+    .pub-summary {
+      line-height: 1.35;
+    }
+
+    /* title link looks like text */
+    a.title-link {
+      color: inherit;
+      text-decoration: none;
+      font-weight: 600;
+    }
+    a.title-link:hover {
+      text-decoration: underline;
+    }
+
+    /* link chips */
+    .pub-links {
+      display: inline-flex;
+      gap: 0.4rem;
+      flex-wrap: wrap;
+      margin-left: 0.4rem;
+      vertical-align: middle;
+    }
+
+    .pub-chip {
+      display: inline-block;
+      font-size: 0.82rem;
+      padding: 0.08rem 0.55rem;
+      border-radius: 999px;
+      border: 1px solid #d0d7de;
+      background: #ffffff;
+      color: #2c3e50;
+      text-decoration: none;
+    }
+
+    .pub-chip:hover {
+      border-color: #98a2b3;
+      text-decoration: none;
+    }
+
+    .pub-chip.internal {
+      opacity: 0.7;
+    }
+
+    details > summary {
+      cursor: pointer;
+      padding: 0.15rem 0;
+    }
   </style>
 </head>
-<body>
-  <header>
-    <h1>Tian Heong Chan</h1>
-    <p>Research on the innovation process from ideas to product </p>
-  </header>
 
-  <div class="container">
+<body>
+<header>
+  <h1>Tian Heong Chan</h1>
+  <p>Research on the innovation process from ideas to product</p>
+</header>
+
+<div class="container">
+
 <section>
-	<h2>Biography</h2>
-	<img src="tmug.jpg" alt="Tian Chan Mugshot" style="float:right; margin:0 0 10px 20px; width:150px; border-radius:8px;">
-	<p>I am an Associate Professor at Emory University’s Goizueta Business School, where I research and teach how teams develop new products and services. My work explores two interrelated areas: (1) the dynamics of collaboration in diverse work settings—ranging from product design and complex problem-solving to customer-supplier co-production and collective action projects; and (2) how novelty emerges through design processes and creative product modifications.</p>
-	<p>My research is grounded in real-world experience. I have worked on a range of technological development and operational improvement projects in complex logistical environments. Some of these projects succeeded. Many did not. Through years of research, at least I’ve come to understand why.</p>
-	<p>I have a PhD in Technology and Operations Management from INSEAD, MS in Management Science & Engineering from Stanford University, and BS in Mechanical Engineering from UC Berkeley.</p>
-	<p><a href="https://docs.google.com/document/d/1mS2JiAFukeNQ4Pi39pAadnfoGDJQG7TGWywthtN2Xgs/edit?usp=sharing">CV</a> </p>
+  <h2>Biography</h2>
+  <img src="tmug.jpg" alt="Tian Chan Mugshot"
+       style="float:right; margin:0 0 10px 20px; width:150px; border-radius:8px;">
+  <p>
+    I am an Associate Professor at Emory University’s Goizueta Business School, where I research
+    and teach how teams develop new products and services.
+  </p>
+  <p>
+    My research is grounded in real-world experience. Some projects succeeded. Many did not.
+    Through years of research, at least I’ve come to understand why.
+  </p>
+  <p>
+    PhD (INSEAD), MS (Stanford), BS (UC Berkeley).
+  </p>
+  <p>
+    <a href="https://docs.google.com/document/d/1mS2JiAFukeNQ4Pi39pAadnfoGDJQG7TGWywthtN2Xgs/edit?usp=sharing">CV</a>
+  </p>
 </section>
+
 <section>
 <h2>Ongoing Work & Publications</h2>
-  <h3>Collaboration, Coordination, and the Design of Work</h3>
-	  <ul>
-		<li><details><summary>Incentivizing information exchange within groups: Voting protocols in FDA advisory committees. <a href="https://pubsonline.informs.org/doi/10.1287/mnsc.2023.03649">Journal Paper</a>. <a href="https://hbr.org/2025/06/set-your-committees-up-for-success">HBR online</a>. <a href="https://business.emory.edu/research-spotlight/why-simultaneous-voting-makes-good-decisions">Emory business</a>. </summary>
-			<p>Complex and important decisions are often made with advice from a committee of experts.  But how do a committee's "rules of engagement" affect the way individuals discuss, how they vote, and ultimately the quality of their collective recommendation?  Compiling verbatim transcripts from U.S. Food and Drug Administration Advisory Committee meetings, we study how a 2007 switch from sequential to simultaneous voting procedures changed discussions, information exchange, and decision-making. Consistent with past findings, we show that, compared to a sequential voting protocol, simultaneous voting led to a reduction in the likelihood of unanimous votes. Importantly, we show novel evidence that the majority of this reduction in unanimity was mediated by changes in discussion patterns---specifically, by the increased diversity of information surfaced during discussions. We also find evidence of behavioral and linguistic changes that support our theory that voting protocols changed the incentives for members to elicit more diverse information from each other: under simultaneous voting, members exhibited greater equality in talking time, directed a greater proportion of questions to each other, and adopted language that was more positive, authentic, and equal in projecting status and confidence. Finally, we show that recommendations under simultaneous voting were more likely to be accurate, as drugs recommended and approved were less likely to encounter safety-related post-market events. In sum, voting protocols affect the incentives for individuals to engage in robust discussions, leading to marked improvements in how information is exchanged between individuals, and in the process by which groups of experts arrive at joint recommendations.</p>
-			<p>With Panos Markou</p>
-		</details></li>
-		<li><details><summary>Influence structures and collective action in online communities: Evidence from Reddit's r/place. (Working) <a href="https://www.researchgate.net/publication/393704114_Influence_Structures_and_Collective_Action_in_Online_Communities_Evidence_from_Reddit's_rplace">Working Paper</a></summary>
-			<p>Online communities frequently grapple with two fundamental challenges in collective action projects: coordinating strategy and mobilizing broad-based participation. This study posits that the structure of influence within an online community significantly impacts its efficacy in addressing these challenges. Specifically, we argue that communities with more hierarchical influence structures--where a concentrated few significantly shape others' behavior--excel at coordinating strategy but struggle with mobilizing participation. Conversely, flatter structures may face initial coordination hurdles but foster greater participation. We test these hypotheses using empirical data from Reddit's 2022 r/place event, where communities mobilize their members to construct artwork pixel-by-pixel on a shared digital canvas. Our findings reveal several key insights: Communities with more hierarchical influence structures demonstrate faster strategic decision-making, evidenced by earlier project initiation and more rapid initial progress toward their objectives. However, this early advantage shrinks as inter-community competition intensifies, increasing the imperative to mobilize marginal members. In these more demanding phases, flatter influence structures surpass their hierarchical counterparts in project progression rates. The performance improvement of flat communities is particularly pronounced when they possess a large contingent of marginal members who subscribe to community updates but do not actively participate in discussions. These findings advance our understanding of online community dynamics and offer crucial implications for the design and management of various online collective action projects, such as crowdfunding campaigns, online petitions, digital protests, and coordinated stock trades.</p>
-			<p>With Shizhen Chen and Anandhi Bharadwaj</p>
-		</details></li>			
-		<li><details><summary>When do teams generate valuable inventions? (2023) <a href="https://onlinelibrary.wiley.com/doi/10.1111/poms.13939">Journal paper.</a> <a href="https://goizueta.emory.edu/research-spotlight/innovation-should-it-always-be-team-sport">Emory business</a>.</summary>
-			<p>Research has demonstrated that certain team composition factors—high expertise similarity, high network cohesion, and mixed-gender teams—have predominantly negative effects on the teams’ invention outcomes. We highlight how these effects depend on an invention’s integrality, which increases task interdependencies among team members and thereby strengthens the positive relationship between team coordination and invention value. We show that (i) the main effects of these team composition factors reduce a team’s invention value but, more importantly, that (ii) invention integrality positively moderates those effects.</p>
-			<p>With Haibo Liu, Steffen Keck, and Wenjie Tang</p>
-		</details></li>
-		<li><details><summary>Business method innovation in US manufacturing and trade. (2023) <a href="https://pubsonline.informs.org/doi/epdf/10.1287/msom.2022.1129">Journal paper</a>.</summary>
-			<p>Using text analysis of business method (BM) patents, we show that BM innovation in the US manufacturing and trade sectors improves how a firm targets customers, manages product delivery, or enhances the product through service offerings. We then show that BM innovation creates value on average, but the value is larger when (1) it is engaged by trade (vs. manufacturing) firms; and (2) the firm’s BM innovation covers the range of customer targeting, product delivery, and product service support.</p>
-			<p>With Anandhi Bharadwaj and Deepa Varadarajan</p>
-		</details></li>
-		<li><details><summary>Revisiting the role of collaboration in creating breakthrough inventions. (2020) <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2962348">Journal paper</a>. <a href="https://hbr.org/2019/12/when-individuals-are-more-innovative-than-teams">HBR online</a>. </summary>
-			<p>We challenge the notion that collaboration is always better than working alone. In our study using technological and design patents we find that the decomposability of the invention significantly moderates the effectiveness of the lone inventor. Particularly, tasks that are less decomposable relatively advantages the lone inventor. We also show that lone inventors working on non-decomposable inventions and who have collaborated widely in the past outperforms even teams.</p>
-			<p>With Jurgen Mihm and Manuel Sosa</p>
-		</details></li>	
-		<li><details><summary>Contracting in medical equipment maintenance services: An empirical investigation. (2019) <a href="https://www.researchgate.net/publication/292131209_Contracting_in_Medical_Equipment_Maintenance_Services_An_Empirical_Investigation">Journal paper</a>.</summary>
-			<p>Using data from a major medical body scanner manufacturer, we show that free-rider problems impose a heavy cost in the maintenance of medical body scanners, and that pay per service maintenance plans can improve performance and reduce costs.</p>
-			<p>With Francis de Vericourt and Omar Besbes</p>
-		</details></li>
-	  </ul>
 
-  <h3>Emergence, Evaluation, and the Design of Products</h3>
-	  <ul>
-		<li><details><summary>The value of legal protection for novel designs. (Working) <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3574702">Working paper</a>.</summary>
-			<p>We show that the 2008 Egyptian Goddess v. Swisa decision strengthened legal protection for complex design rights. It not only boosted the value of complex designs, but also the market performance and exploratory behavior of firms employing them.</p>
-			<p>With Po-Hsuan Hsu and Kevin Tseng </p>
-		</details></li>	
-		<li><details><summary>Computer vision to measure degrees of design similarity: An application to design rights. (2025) <a href="https://authors.elsevier.com/sd/article/S0048-7333(25)00138-6">Journal paper</a>. <a href="https://github.com/emamoncio/CVforRP/">Dataset</a>. </summary>
-			<p>(Dis)similarity between designs is an important measure to detect the novelty of a design. Can Computer Vision techniques be used to measure similarity between two designs? In this paper we develop a technique that shows that, with careful calibration to suit the design context, CV techniques can deliver a measure of similarity between designs.</p>
-			<p>With Egbert Amoncio and Cornelia Storz </p>
-		</details></li>	
-		<li><details><summary>The emergence of novel product uses: An investigation of exaptations in IKEA hacks. (2023) <a href="https://pubsonline.informs.org/doi/epdf/10.1287/mnsc.2022.4486">Journal paper</a>. <a href="https://goizueta.emory.edu/research-spotlight/expert-perspective-unpacking-innovation-process">Emory business</a>.</summary>
-			<p>Exaptation refers to the emergence of novel functionalities in existing products. We compare how product-first (compared to problem-first) search affects the occurrence of exaptations in a dataset consisting of creative modifications (i.e., hacks) of IKEA products. We show how problem-specific knowledge that customer users have improve their ability to search for exaptations starting from a problem.</p>
-			<p>With Shiying Lim </p>
-		</details></li>
-		<li><details><summary>Anchored differentiation: The role of temporal distance in the comparison and evaluation of new product designs. (2023) <a href="https://pubsonline.informs.org/doi/10.1287/orsc.2021.1454">Journal paper</a>.</summary>
-			<p>Comparative processes are crucial to how consumers evaluate design. What we show, however, is that consumers can be sophisticated in such comparisons. Given a novel design, they would lean on its similarities to past designs to understand its functionalities, but also lean on dis-similarities to other contemporary designs to seek distinctiveness and express their individuality.</p>
-			<p>With Yonghoon Lee and Heejung Jung</p>
-		</details></li>	
-		<li><details><summary>On styles in product design: An analysis of US design patents. (2018) <a href="https://pubsonline.informs.org/doi/abs/10.1287/mnsc.2016.2653">Journal paper</a>. <a href="https://github.com/tian-chan/tian-chan.github.io/raw/refs/heads/main/StyleData.zip">Dataset</a>. <a href="https://goizueta.emory.edu/research-spotlight/managing-style-and-product-design">Emory business</a>.</summary>
-			<p>We show how one can identify styles (categories of product design that are perceived to be similar) using design patents. Using this data set we show that (i) style turbulence (unpredictable changes in style) is increasing over time, and (ii) technological turbulence (unpredictable changes in technology) have a U-shaped relationship to style turbulence. I use this data platform to study other questions (see e.g., “Anchored Differentiation”).</p>
-			<p>With Jurgen Mihm and Manuel Sosa</p>
-		</details></li>				
-		<li>A brief <a href="https://youtu.be/GmnDlx-XCLE">video</a> contributing to Emory Exec Ed's Business over Breakfast webinar series explaining the role of users in innovation.</li>
-	  </ul>	  
+<h3>Collaboration, Coordination, and the Design of Work</h3>
+<ul>
+
+<li>
+<details>
+<summary class="pub-summary">
+  <a class="title-link" href="https://pubsonline.informs.org/doi/10.1287/mnsc.2023.03649">
+    Incentivizing information exchange within groups: Voting protocols in FDA advisory committees
+  </a>
+  <span class="pub-links">
+    <a class="pub-chip" href="https://pubsonline.informs.org/doi/10.1287/mnsc.2023.03649">Journal</a>
+    <a class="pub-chip" href="https://hbr.org/2025/06/set-your-committees-up-for-success">HBR</a>
+    <a class="pub-chip internal" href="https://business.emory.edu/research-spotlight/why-simultaneous-voting-makes-good-decisions">Emory</a>
+  </span>
+</summary>
+<p>We study how sequential vs. simultaneous voting changes discussion quality, information exchange,
+and decision accuracy in FDA advisory committees.</p>
+<p>With Panos Markou</p>
+</details>
+</li>
+
+<li>
+<details>
+<summary class="pub-summary">
+  <a class="title-link" href="https://www.researchgate.net/publication/393704114">
+    Influence structures and collective action in online communities: Evidence from Reddit’s r/place
+  </a>
+  <span class="pub-links">
+    <a class="pub-chip" href="https://www.researchgate.net/publication/393704114">Working paper</a>
+  </span>
+</summary>
+<p>We show how hierarchical vs. flat influence structures trade off coordination and participation.</p>
+<p>With Shizhen Chen and Anandhi Bharadwaj</p>
+</details>
+</li>
+
+</ul>
+
+<h3>Emergence, Evaluation, and the Design of Products</h3>
+<ul>
+
+<li>
+<details>
+<summary class="pub-summary">
+  <a class="title-link" href="https://authors.elsevier.com/sd/article/S0048-7333(25)00138-6">
+    Computer vision to measure degrees of design similarity: An application to design rights
+  </a>
+  <span class="pub-links">
+    <a class="pub-chip" href="https://authors.elsevier.com/sd/article/S0048-7333(25)00138-6">Journal</a>
+    <a class="pub-chip" href="https://github.com/emamoncio/CVforRP/">Dataset</a>
+  </span>
+</summary>
+<p>We develop computer-vision measures of visual similarity tailored to design rights.</p>
+<p>With Egbert Amoncio and Cornelia Storz</p>
+</details>
+</li>
+
+</ul>
+
 </section>
+
 <section>
-	<h2> Courses </h2>
-	<ul>
-		<li> Make it Happen: Effective Project Management. (<a href="https://www.dropbox.com/scl/fi/yatp8vyadefxtbgt5vxgo/Project-Management.pdf?rlkey=h6c5os5rm3cxm6jrc7yofmpru&dl=0">Syllabus</a>)</li>
-		<li> Prescriptive Analytics (<a href="https://www.dropbox.com/scl/fi/9ekdpz3zm9ix0hpevg2go/ISOM-677-Fall-2025-Chan.pdf?rlkey=amwzdw58fjdd0ervjyk0av5yv&dl=0">Syllabus</a>)</li>			
-	</ul>
+<h2>Courses</h2>
+<ul>
+<li>
+  Make it Happen: Effective Project Management
+  (<a href="https://www.dropbox.com/scl/fi/yatp8vyadefxtbgt5vxgo/Project-Management.pdf">Syllabus</a>)
+</li>
+<li>
+  Prescriptive Analytics
+  (<a href="https://www.dropbox.com/scl/fi/9ekdpz3zm9ix0hpevg2go/ISOM-677-Fall-2025-Chan.pdf">Syllabus</a>)
+</li>
+</ul>
 </section>
-  </div>
 
-  <footer>
-    <p>&copy; 2025 Tian Chan. All rights reserved.</p>
-  </footer>
+</div>
+
+<footer>
+  <p>&copy; 2025 Tian Chan. All rights reserved.</p>
+</footer>
+
+<script>
+  /* prevent link clicks from toggling <details> */
+  document.querySelectorAll('details summary a').forEach(a => {
+    a.addEventListener('click', e => e.stopPropagation());
+  });
+</script>
+
 </body>
 </html>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
